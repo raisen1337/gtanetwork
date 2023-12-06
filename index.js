@@ -11,7 +11,7 @@ app.get("/", async (req, res) => {
             "https://cdn.noping.ro/gtanetworkpage/index.htm"
         );
         const html = response.data;
-
+        //da
         res.send(html);
     } catch (error) {
         res.status(500).send("Error fetching and rendering HTML");
