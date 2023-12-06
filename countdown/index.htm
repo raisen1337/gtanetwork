@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://kit-pro.fontawesome.com/releases/v6.3.0/css/pro.min.css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>GTANetwork - Countdown</title>
+    </head>
+    <body class="countdown">
+        <div
+            class="navbar sticky top-0 z-10 flex flex-row justify-between items-center w-full h-fit bg-gradient-to-r from-violet-600/50 to-orange-500/50"
+        >
+            <span class="website-name text-white text-xl m-5 ml-7 font-bold">
+                <span class="font-normal text-gray-400">GTA</span>Network
+            </span>
+            <div
+                class="navbar-links flex flex-row gap-6 font-extralight text-center"
+            >
+                <span
+                    class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer"
+                    onclick="nav('news-and-leaks')"
+                    >NEWS & LEAKS</span
+                >
+                <span
+                    class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer"
+                    onclick="nav('server-list')"
+                    >SERVER LIST</span
+                >
+                <span
+                    class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer"
+                    onclick="nav('countdown')"
+                    >COUNTDOWN</span
+                >
+                <span
+                    class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer"
+                    onclick="nav('announcements')"
+                    >ANNOUNCEMENTS</span
+                >
+            </div>
+
+            <div class="navbar-buttons flex flex-row">
+                <button
+                    class="text-white mr-7 border-[1px] transition-all duration-100 hover:text-black hover:bg-white border-white text-[.8rem] uppercase p-3 rounded-full min-w-[45px]"
+                >
+                    <i class="fa-regular fa-user"></i>
+                </button>
+            </div>
+        </div>
+        <div
+            class="countdown-container w-full h-full flex flex-col justify-center items-center"
+        >
+            <span
+                class="countdown-title z-0 text-white text-2xl uppercase font-bold"
+                >Time left until GTA VI Release</span
+            >
+            <span
+                class="countdown-title z-0 text-white text-4xl uppercase font-bold"
+                >2 Years 6 Months (estimated)</span
+            >
+        </div>
+    </body>
+</html>

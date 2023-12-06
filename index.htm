@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GTANetwork</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdn.noping.ro/gtanetworkpage/assets/css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://kit-pro.fontawesome.com/releases/v6.3.0/css/pro.min.css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    
+    <body class="scroll-smooth bg-black">
+        <div class="preloadbars absolute top-0 bottom-0 left-0 right-0 z-50">
+            <div class="preloadbar-top w-full absolute top-0 bg-gradient-to-r from-violet-600 to-orange-500 h-1/2 "></div>
+            <div class="preloadbar-bottom w-full absolute bottom-0 bg-gradient-to-r from-violet-600 to-orange-500 h-1/2 "></div>
+        </div>
+        <div class="desktop">
+            <div
+                class="navbar sticky top-0 z-10 flex flex-row justify-between items-center w-full h-fit bg-gradient-to-r from-violet-600/50 to-orange-500/50"
+            >
+                <span
+                    class="website-name text-white text-xl m-5 ml-7 font-bold"
+                >
+                    <span class="font-normal text-gray-400">GTA</span>Network
+                </span>
+                <div class="navbar-links flex flex-row gap-6 font-extralight text-center">
+                    <span class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer" onclick="nav('news-and-leaks')">NEWS & LEAKS</span>
+                    <span class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer" onclick="nav('server-list')">SERVER LIST</span>
+                    <span class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer" onclick="nav('countdown')">COUNTDOWN</span>
+                    <span class="navbar-link text-white hover:font-bold transition-all duration-100 hover:cursor-pointer" onclick="nav('announcements')">ANNOUNCEMENTS</span>
+                </div>
+                
+                <div class="navbar-buttons flex flex-row">
+                    <button class="text-white mr-7 border-[1px] transition-all duration-100 hover:text-black hover:bg-white border-white text-[.8rem] uppercase p-3 rounded-full min-w-[45px]">
+                        <i class="fa-regular fa-user hover:cursor-pointer"></i>
+                    </button>
+                </div>
+
+                
+            </div>
+            <div
+                class="header relative flex flex-col items-center justify-center w-full min-h-[100vh] mt-[-4rem] max-h-[100vh] overflow-hidden bg-black-800"
+            >
+                <img
+                    src="https://cdn.noping.ro/gtanetwork/header.gif"
+                    alt=""
+                    class="hover:saturate-150 transition-all duration-100 header-img hover:duration-500 hover:transition hover:blur-0 absolute inset-0 w-full h-full object-cover brightness-[.3]"
+                />
+
+                <div
+                    class="header-info flex flex-col items-center justify-center z-0"
+                >
+                    <img
+                        src="https://cdn.noping.ro/gtanetwork/vilogo.png"
+                        alt=""
+                        class="h-auto scale-50 ml-[-4rem]"
+                    />
+                    <div
+                        class="buttons flex flex-row justify-between items-center text-white mt-[-5rem] gap-3"
+                    >
+                        <button
+                            class="border-fuchsia-600 border-[1px] transition-all duration-100 p-3 rounded-[1rem] min-h-[50px] text-1xl hover:bg-fuchsia-600 hover:border-fuchsia-600 hover:scale-105"
+                        >
+                            NEWS
+                        </button>
+                        <button
+                            class="border-[1px] rounded-[1rem] transition-all duration-100 min-h-[50px] p-3 text-1xl hover:bg-white hover:text-black hover:scale-105"
+                        >
+                            TRAILER
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="page-content w-full h-fit text-white bg-transparent flex mt-10 mb-10 ml-5 mr-5 flex-col items-center justify-center"
+            >
+                <span class="text-3xl uppercase">NEWS</span>
+                <span class="text-[.8rem] text-neutral-500 uppercase"
+                    >Latest GTA Related news</span
+                >
+                <div
+                    class="news-content flex flex-row flex-wrap w-full items-center justify-center mt-16 gap-10"
+                >
+                    <div
+                        class="news-item hover:cursor-pointer hover:scale-105 transition-all duration-100 max-w-[30rem] min-w-[30rem] overflow-hidden rounded-2xl bg-black border-[1px] border-neutral-800 flex flex-col items-start justify-center text-left"
+                    >
+                        <img
+                            src="https://pbs.twimg.com/media/GAi48ryXkAAPdke.jpg"
+                            alt=""
+                            class="news-item-img"
+                        />
+                        <div class="news-item-texts flex flex-col p-3">
+                            <div
+                                class="news-item-title-texts flex flex-row items-center gap-5"
+                            >
+                                <span class="text-2xl font-bold"
+                                    >GTA 6 TRAILER OUT!</span
+                                >
+                                <span
+                                    class="text-sm font-extrabold text-neutral-600"
+                                    >5 December</span
+                                >
+                            </div>
+
+                            <span class="text-1xl font-normal text-neutral-600"
+                                >Rockstar Games just published a trailer for
+                                world's most awaited title, Grand Theft Auto
+                                VI</span
+                            >
+                        </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.noping.ro/gtanetworkpage/assets/js/preload.js"></script>
+</html>
