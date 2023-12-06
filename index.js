@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 
 const app = express();
-const PORT = 3000;
+const PORT = 80;
 
 app.get("/", async (req, res) => {
     try {
